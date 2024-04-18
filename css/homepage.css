@@ -1,6 +1,8 @@
 /* this css file will only style the homepage of our site */
 
 .dog-photo {
-  margin: 10px;
-  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
