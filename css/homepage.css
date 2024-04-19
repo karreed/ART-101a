@@ -1,8 +1,47 @@
-/* this css file will only style the homepage of our site */
+body {
+  background-color: #ffffff;
+}
 
-.dog-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h1,h2,h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+  text-align: center;
+}
+
+#content {
+  margin: 0px;
+  padding: 0px;
+}
+
+.standing {
+  float: left;
+  width: 48%;
+}
+
+.minor-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-me {
+  float: right;
+  text-align: center;
+  font-size: 100%;
+  padding: 10px;
+  width: 50%;
+  background-color: bisque;
+}
+
+.labs {
+  float: right;
+  border: solid 1px; 
+  margin-top: -500px;
+  padding: 10px;
   width: 50%;
 }
