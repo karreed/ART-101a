@@ -16,3 +16,9 @@
 .code {
   width: 50%;
 }
+
+.caption {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
