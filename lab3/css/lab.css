@@ -8,12 +8,12 @@
     background-color: #DDD8C4;
   }
 
-.site {
+.right {
   float: right;
   width: 50%;
 }
 
-.code {
+.left {
   width: 50%;
 }
 
