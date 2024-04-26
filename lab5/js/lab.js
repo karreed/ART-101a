@@ -1,8 +1,17 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Jonathan Au
+// Date: 25 April 2024
 
 // Constants
+
+make = "Toyota";
+model = "Supra";
+color = "Black";
+year = 2020;
+
+// Calculation
+
+age = 2024 - year;
 
 // Functions
 
@@ -15,7 +24,13 @@ function myFunction(param1, param2) {
 function main() {
   console.log("Main function started.");
   // the code that makes everything happen
+  document.writeln("Make: " + make + "<br>");
+  document.writeln("Model: " + model + "<br>");
+  document.writeln("Color: " + color + "<br>");
+  document.writeln("Year: " + year + "<br>");
+  document.writeln("Age: " + age + " years<br>");
 }
 
 // let's get this party started
 main();
+

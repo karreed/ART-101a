@@ -7,3 +7,13 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.caption {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.java {
+  width: 50%;
+}
