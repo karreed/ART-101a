@@ -7,7 +7,7 @@
 // Functions
 function yourName() {
   var userName = window.prompt("Enter your name: ");
-  return userName.split('').sort().join('');
+  return userName.split('').sort((a,b) => a.toLowerCase() < b.toLowerCase() ? -1 : 1).join('');
 }
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
