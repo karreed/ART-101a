@@ -8,39 +8,18 @@
   background-color: #DDD8C4;
 }
 
-/* #challenge {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #DDD8C4;
-}
-
-#problems {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #DDD8C4;
-}
-
-#reflection {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888 ;
-  background-color: #DDD8C4;
-}
-
-#results {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #DDD8C4;
-} */
-
 .special {
   background-color: #001e46!important;
   color: #e01b77;
   border: groove 10px #e01b77!important;
 }
+
+/* .special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+} */
 
 .bonus {
   width: 50%;

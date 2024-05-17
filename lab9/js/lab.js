@@ -7,37 +7,37 @@
 // Functions
 
 // add button to challenge & other sections
-// $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#challenge").append("<button id='buttonChallenge'>Make Special</button>");
 
-// $("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>Make Special</button>");
 
-// $("#reflection").append("<button id='button-reflection'>Make Special</button>");
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
 
-// $("#results").append("<button id='button-results'>Make Special</button>");
+$("#results").append("<button id='button-results'>Make Special</button>");
 
-$(".minor-section").append("<button class='button-special'>Make Special</button>");
+// $(".minor-section").append("<button class='button-special'>Make Special</button>");
 
-$(".button-special").click(function(){
-  $(this).parent().toggleClass("special");
-});
+// $(".button-special").click(function(){
+//   $(this).parent().toggleClass("special");
+// });
 
 // add a click listener to the challenge button
-// $("#button-challenge").click(function(){
+$("#buttonChallenge").click(function(){
   // now add (or subtract) the "special" class to the section
-//   $("#challenge").toggleClass("special");
-// });
+  $("#challenge").toggleClass("special");
+});
 
-// $("#button-problems").click(function(){
-//   $("#problems").toggleClass("special");
-// });
+$("#button-problems").click(function(){
+  $("#problems").toggleClass("special");
+});
 
-// $("#button-reflection").click(function(){
-//   $("#reflection").toggleClass("special");
-// });
+$("#button-reflection").click(function(){
+  $("#reflection").toggleClass("special");
+});
 
-// $("#button-results").click(function(){
-//   $("#results").toggleClass("special");
-// });
+$("#button-results").click(function(){
+  $("#results").toggleClass("special");
+});
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
