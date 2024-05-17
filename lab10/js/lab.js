@@ -3,7 +3,7 @@
 // Date: 16 May 2024
 
 // Constants
-// let isLeft = true;
+let isLeft = true;
 
 // Functions
 function generateRandomText() {
