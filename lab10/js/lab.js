@@ -17,23 +17,23 @@ function generateRandomText() {
   return text.slice(randStart, randStart + randLen);
 }
 
-$("#make-convo").click(function(){
-  const newText = generateRandomText();
-  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-});
-
-// // click listener for button
 // $("#make-convo").click(function(){
-//   // get new fake dialogue
-//   if (isLeft) {
-//     const newText = generateRandomText();
-//     $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-//   } else {
-//     var newText2 = prompt("");
-//     $("#output").append('<div class="text2"><p>' + newText2 + '</p></div>');
-//   }
-//   isLeft = !isLeft;
+//   const newText = generateRandomText();
+//   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 // });
+
+// click listener for button
+$("#make-convo").click(function(){
+  // get new fake dialogue
+  if (isLeft) {
+    const newText = generateRandomText();
+    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+  } else {
+    var newText2 = prompt("");
+    $("#output").append('<div class="text2"><p>' + newText2 + '</p></div>');
+  }
+  isLeft = !isLeft;
+});
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
