@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Purpose of the lab is to get a comic from an api
+// Author: Jonathan Au
+// Date: 6 June 2024
 
 // Constants
 
